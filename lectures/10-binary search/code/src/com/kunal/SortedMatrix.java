@@ -1,3 +1,8 @@
+// one more better way of solving this ques is to consider this matrix as a virtual one d array 
+//  row = index/cols
+//  col = index%cols
+//  apply binary search start = 0 and end = rows*cols - 1
+
 package com.kunal;
 
 import java.util.Arrays;
